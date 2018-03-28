@@ -1,8 +1,21 @@
-# Deep RL Quadcopter Controller
+# Deep RL Quadcopter Controller :
 
-*Teach a Quadcopter How to Fly!*
 
-In this project, you will design an agent to fly a quadcopter, and then train it using a reinforcement learning algorithm of your choice! 
+
+#### Target :
+Training an RL agent(quadcopter controller) to learn to fly & perform the defined tasks in direction to maximise reward.
+
+#### Algorithm Class :
+Deep Deterministic Policy Gradients (DDPG)
+
+#### Problem  Type :
+Continuous Control Task
+
+
+#### Final Result :
+- Final Reward-Episode Plot  :<br>
+![Final Reward-Episode Plot](resources/reward_episode.png)
+
 
 ## Project Instructions
 
@@ -16,7 +29,7 @@ cd RL-Quadcopter-2
 2. Create and activate a new environment.
 
 ```
-conda create -n quadcop python=3.6 matplotlib numpy pandas
+conda create -n quadcop python=3.6 matplotlib numpy pandas keras-gpu
 source activate quadcop
 ```
 
@@ -33,3 +46,4 @@ jupyter notebook Quadcopter_Project.ipynb
 5. Before running code, change the kernel to match the `quadcop` environment by using the drop-down menu (**Kernel > Change kernel > quadcop**). Then, follow the instructions in the notebook.
 
 6. You will likely need to install more pip packages to complete this project.  Please curate the list of packages needed to run your project in the `requirements.txt` file in the repository.
+    
